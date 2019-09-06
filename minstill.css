@@ -1,0 +1,59 @@
+table,tr,td{
+    border:2px solid black;
+    border-collapse:collapse; 
+}
+table 
+{
+    display: table;
+}
+td,th
+{
+    width: 200px;
+    height: 30px;
+}
+.olika
+{
+    background-color:orange;
+}
+.lika 
+{
+    background-color:red;
+}
+.block
+{
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+.black
+{
+   background-color: black;
+}
+.blue 
+{
+    background-color: blue;
+}
+.red 
+{
+    background-color: red;
+}
+.green 
+{
+    background-color: green; 
+}
+.yellow
+{
+    background-color: yellow;
+}
+td:nth-child(2)
+{
+    text-align: center;
+}
+td:nth-child(3)
+{
+    text-align: center;
+}
+td:nth-child(4)
+{
+    text-align: right;
+}
